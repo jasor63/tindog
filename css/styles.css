@@ -1,0 +1,191 @@
+body{
+    font-family: Montserrat;
+}
+
+#title{
+    background-color: #ff4c68;
+}    
+
+h1 {
+    font-family: montserrat;
+    font-weight: 900;
+    line-height: 1.3;
+    font-size: 3rem;
+    color: white;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.brand-name{
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.nav-link{
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.iphone-6{
+    position: absolute;
+    width: 20%;
+    transform: rotate(25deg);
+    margin-left: 3%;
+}
+
+#features{
+    padding-top: 7%;
+    padding-bottom: 7%; 
+    position: relative;
+    background-color: white;
+}
+
+.fa-circle-check, .fa-bullseye, .fa-heart{
+    color: #ef8172;
+}
+
+.fa-circle-check:hover, .fa-bullseye:hover, .fa-heart:hover{
+    color: #ff4c68;
+}
+
+#features p{
+    color: #8f8f8f;
+    
+}
+
+#features h3{
+    font-size: 1.5rem;
+    font-family: montserrat;
+    font-weight: 700;
+}
+
+#features i{
+    margin-bottom: 1rem;
+}
+
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+}
+
+#testimonials h2{
+    font-size: 3rem;
+    font-family: Montserrat;
+    font-weight: bold;
+    line-height: 1.5;
+    color: white;
+}
+
+.testimonial-image{
+    width: 10%;
+    margin: 20px;
+    border-radius: 100%;
+}
+
+.carousel-inner{
+    padding: 7% 15%;
+}
+
+
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+#press img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+
+#pricing {
+    text-align: center;
+    padding: 100px;
+}
+
+#pricing h2, h3{
+    font-weight: 700;
+}
+
+.pricing-section {
+    padding: 3% 2%;
+}
+
+
+
+@media (max-width: 1012px){
+    .iphone-6{
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+        margin-left: 0%;
+    }
+    
+    #title{
+        text-align: center;
+    }
+}
+
+@media (max-width: 1036px) and (min-width: 992px){
+    .download-button{
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 510px){
+    .download-button{
+        margin-right: 2%;
+    }
+}
+
+
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+}
+
+#cta h3{
+    padding-top: 5%;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.download-button-cta {
+    margin: 5% 3% 5% 0;
+}
+
+
+#footer {
+    text-align: center;
+    padding: 5% 0;
+    background-color: #fff;
+}
+
+#footer i {
+margin: 1%;
+}
+
+#footer p{
+    color: #8f8f8f;
+}
+
